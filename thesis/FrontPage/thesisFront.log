@@ -1,0 +1,587 @@
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.8.11)  16 NOV 2023 21:46
+ restricted system commands enabled.
+**thesisFront.tex
+(./thesisFront.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/julie/.texlive2021/texmf-var/
+luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2021-
+05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/home/julie/.texlive2021/texmf-var/
+luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-01-21>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{titlepage}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5     \noindent
+                \includegraphics[width=\paperwidth]{images/ucl_logo_black} \...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.5     \noindent \includegraphics
+                                [width=\paperwidth]{images/ucl_logo_black} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.5 ...\noindent \includegraphics[width=\paperwidth]
+                                                  {images/ucl_logo_black} \n...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.5 ...\noindent \includegraphics[width=\paperwidth]
+                                                  {images/ucl_logo_black} \n...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.5 ...ncludegraphics[width=\paperwidth]{images/ucl_
+                                                  logo_black} \nopagebreak %...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+! Extra }, or forgotten $.
+l.5 ...ics[width=\paperwidth]{images/ucl_logo_black}
+                                                   \nopagebreak % Adjust hei...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.6 
+  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (40.2239pt too wide) in paragraph at lines 5--6
+[width=]images/ucl$[][]\OML/cmm/m/it/10 ogo[]lack$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{center}
+                
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--8
+[] 
+ []
+
+! Undefined control sequence.
+l.10 \large
+         {UNIVERSITY COLLEGE LONDON}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 \large
+         {\textbf{[Institute Name]}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+luaotfload | db : Font names database loaded from /home/julie/.texlive2021/texmf
+-var/luatex-cache/generic/names/luaotfload-names.luc
+Overfull \hbox (17.77pt too wide) in paragraph at lines 12--12
+ []\TU/lmr/bx/n/10 [In- 
+ []
+
+
+Overfull \hbox (16.03pt too wide) in paragraph at lines 12--12
+ \TU/lmr/bx/n/10 sti- 
+ []
+
+
+Overfull \hbox (20.6pt too wide) in paragraph at lines 12--12
+ \TU/lmr/bx/n/10 tute 
+ []
+
+
+Overfull \hbox (32.63pt too wide) in paragraph at lines 12--12
+ \TU/lmr/bx/n/10 Name] 
+ []
+
+! Undefined control sequence.
+l.14 \large
+         {\textit{[Lab Name]}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (18.54002pt too wide) in paragraph at lines 14--14
+ []\TU/lmr/m/it/10 [Lab 
+ []
+
+
+Overfull \hbox (29.11pt too wide) in paragraph at lines 14--14
+ \TU/lmr/m/it/10 Name] 
+ []
+
+! Undefined control sequence.
+l.16 \LARGE
+         {\textbf{[Title of the Thesis]}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (18.21pt too wide) in paragraph at lines 16--16
+ []\TU/lmr/bx/n/10 [Ti- 
+ []
+
+
+Overfull \hbox (12.93001pt too wide) in paragraph at lines 16--16
+ \TU/lmr/bx/n/10 tle 
+ []
+
+
+Overfull \hbox (9.26pt too wide) in paragraph at lines 16--16
+ \TU/lmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (16.13pt too wide) in paragraph at lines 16--16
+ \TU/lmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (23.49pt too wide) in paragraph at lines 16--16
+ \TU/lmr/bx/n/10 The- 
+ []
+
+
+Overfull \hbox (15.45999pt too wide) in paragraph at lines 16--16
+ \TU/lmr/bx/n/10 sis] 
+ []
+
+! Undefined control sequence.
+l.18 \large
+         {\textit{\textbf{[Subtitle of the Thesis]}}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (25.73001pt too wide) in paragraph at lines 18--18
+ []\TU/lmr/bx/it/10 [Sub- 
+ []
+
+
+Overfull \hbox (11.55pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 ti- 
+ []
+
+
+Overfull \hbox (12.14001pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 tle 
+ []
+
+
+Overfull \hbox (9.91pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 of 
+ []
+
+
+Overfull \hbox (15.08002pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (23.33002pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 The- 
+ []
+
+
+Overfull \hbox (17.41998pt too wide) in paragraph at lines 18--18
+ \TU/lmr/bx/it/10 sis] 
+ []
+
+! Undefined control sequence.
+l.20 \large
+         {\textbf{By [First and Last Name of the Author]}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.25pt too wide) in paragraph at lines 20--20
+ []\TU/lmr/bx/n/10 By 
+ []
+
+
+Overfull \hbox (27.37001pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 [First 
+ []
+
+
+Overfull \hbox (18.37pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (21.51999pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 Last 
+ []
+
+
+Overfull \hbox (29.44pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 Name 
+ []
+
+
+Overfull \hbox (9.26pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (16.13pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (18.59pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 Au- 
+ []
+
+
+Overfull \hbox (24.54001pt too wide) in paragraph at lines 20--20
+ \TU/lmr/bx/n/10 thor] 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \begin{figure}
+                 [b]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
+[][b] 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \clearpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no / (U+002F) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Missing character: There is no U (U+0055) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no I (U+0049) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no I (U+0049) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no Y (U+0059) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no G (U+0047) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no F (U+0046) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+]
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \end{titlepage}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.44 \end{titlepage}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> thesisFront.tex
+                
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 29 strings out of 477805
+ 100000,383344 words of node,token memory allocated 308 words of node memory still in use:
+   1 hlist, 1 dir, 3 kern, 1 glyph, 2 attribute, 39 glue_spec, 2 attribute_list,
+ 1 write nodes
+   avail lists: 1:1,2:163,3:78,4:10,5:27,6:24,7:930,8:9,9:136,10:9,11:16
+ 20844 multiletter control sequences out of 65536+600000
+ 28 fonts using 1740119 bytes
+ 24i,5n,23p,149b,175s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

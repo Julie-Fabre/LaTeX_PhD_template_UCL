@@ -1,0 +1,23 @@
+# Fdb version 4
+["pdflatex"] 1700155677 "thesisMain.tex" "thesisMain.pdf" "thesisMain" 1700155680 2
+  "/home/julie/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1700155680 21033859 79e2e3ac0db2984d4843632adc3d459a ""
+  "/home/julie/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1700070507 3152 4850ff0163852b7fab34bd55e1197f28 ""
+  "/home/julie/.miktex/texmfs/install/fonts/tfm/public/cm/cmr12.tfm" 1700070479 1288 655e228510b4c2a1abe905c368440826 ""
+  "/home/julie/.miktex/texmfs/install/tex/generic/babel/babel.sty" 1648479642 147649 823237dc86e8acfaa45204ca8085a60e ""
+  "/home/julie/.miktex/texmfs/install/tex/generic/babel/txtbabel.def" 1648479642 5233 d5e383ed66bf272b71b1a90b596e21c6 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg" 1648479641 902 74ca68fb2e6c2b8d370ff0e672de0f31 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/babel-english/english.ldf" 1648479642 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/base/bk12.clo" 1700070477 8285 0e0427aca4aa892dd0141623f81a21a7 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/base/book.cls" 1700070477 23268 4ef3f0c1d276578b68abf6a1d0e1b8ad ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/base/fontenc.sty" 1700070477 5119 50695b8f743569fbac71a83f7ef51fe2 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/fontspec/fontspec.sty" 1700078478 1656 7e824878bad4df5a3e8bba4e463d9126 ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1700070526 29988 bb6a6635dd6c1ccb32cf27163b4e39bb ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty" 1700070478 6547 385deaf4c7ce93ef0b73001a8853b1fe ""
+  "/home/julie/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty" 1700070525 9327 c30c00c0072edba199ede5889311aaa9 ""
+  "thesisMain.aux" 1700155629 1700 333d1b06a813148ef8a30fdb10eec68c "pdflatex"
+  "thesisMain.tex" 1700155676 4096 6fba438d6f6d0c820b0f2e61e3be37ab ""
+  (generated)
+  "thesisMain.aux"
+  "thesisMain.log"
+  "thesisMain.pdf"
+  (rewritten before read)

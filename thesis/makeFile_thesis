@@ -1,0 +1,25 @@
+# Makefile for thesisMain.tex
+
+# Define the main document name without extension
+MAIN = thesisMain
+
+# Phony target to handle the build process
+.PHONY: all
+all: $(MAIN).pdf
+
+# Rule for creating the PDF
+$(MAIN).pdf: $(MAIN).tex
+	lualatex -interaction=nonstopmode $(MAIN).tex
+	bibtex $(MAIN).aux
+	makeindex $(MAIN).nlo -s nomencl.ist -o $(MAIN).nls
+	lualatex -interaction=nonstopmode $(MAIN).tex
+
+# Phony target for opening the PDF
+.PHONY: view
+view:
+	evince $(MAIN).pdf
+
+# Phony target to clean auxiliary files
+.PHONY: clean
+clean:
+	rm -f $(MAIN).aux $(MAIN).bbl $(MAIN).blg $(MAIN).ilg $(MAIN).log $(MAIN).nlo $(MAIN).nls $(MAIN).toc

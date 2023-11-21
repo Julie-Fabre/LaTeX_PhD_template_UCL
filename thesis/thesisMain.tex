@@ -1,0 +1,125 @@
+
+\documentclass[12pt, twoside, a4paper]{book}
+\usepackage{styleSheets/classic} %  options: classic , modern , medieval
+
+%% === THESIS ====
+\begin{document}
+
+
+%% === TITLE PAGE ====
+\input{FrontPage/thesisFront}
+
+\newgeometry{marginpar=2cm, top=3cm, bottom=4cm, left=3cm, right=3cm}
+
+
+%% === FRONT MATTER ====
+%\frontmatter - don't use this command, it automatically uses small roman numerals (ie i, ii, iii, iv) for this part before the main bits (introduction, chapters, ... ) while UCL requires arabic numerals throughout. 
+%% === DECLARATION ====
+\newpage
+\begin{center}
+\Large{Declaration}
+\end{center}
+\vspace*{1cm}
+%\gls{un} % abbreviation example 
+
+\normalsize{I, [full name here] confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.}
+
+\vspace*{3cm}
+
+\noindent\signature{YOUR NAME}
+\newpage
+
+%% === ABSTRACT ====
+\newpage
+\noindent % Removes paragraph indentation
+\begin{center}
+\Large{Abstract}\\
+\end{center}
+\vskip 1cm
+\normalsize{This should be maximum 300 words.\\}
+
+%% === IMPACT STATEMENT ====
+\newpage
+\noindent % Removes paragraph indentation
+\begin{center}
+\Large{Impact statement}\\
+\end{center}
+\vskip 1cm
+\normalsize{This should be maximum 500 words. More information \href{https://www.grad.ucl.ac.uk/essinfo/docs/Impact-Statement-Guidance-Notes-for-Research-Students-and-Supervisors.pdf}{here}.}
+
+%% === ACKNOWLEDGMENTS ====
+\newpage % To start on a new page
+\begin{center}
+\Large{Acknowledgments (optional)}\\
+\vskip 1cm
+\end{center}
+\normalsize{\kant[10]}
+
+%% === PAPER DECLARATION FORM ====
+\input{PaperDeclarationForm/paperDeclarationForm}
+
+%% === TABLE OF CONTENTS ====
+\newpage
+\tableofcontents
+
+%% === FIGURES ====
+\newpage
+\listoffigures 
+
+\newpage
+%% === TABLES ====
+\listoftables
+
+
+%% === MAIN MATTER ====
+\mainmatter
+%% === INTRODUCTION ====
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction} % So that the introduction appears in the table of contents even though it's not numbered (* = not numbered)
+
+\kant[1-2]
+
+%% === PART 1 ====
+\part{[Part Title]}
+
+%% === CHAPTER 1 ====
+\include{Chapter1/chapter1}
+
+
+%% === PART 3 ====
+\part{Tutorial}
+
+%% === CHAPTER 3 ====
+\include{Chapter2_Tutorial/chapter2_tuto}
+
+
+%% === BACKMATER ====
+% Unnumbered final parts (Conclusion, bibliography...)
+
+\backmatter
+
+%% === CONCLUSION ====
+\chapter{Conclusion}
+
+%% === BIBLIOGRAPHY ====
+\bibliographystyle{plain}
+\bibliography{biblio}
+\nocite{hubel1962receptive}% adds uncited references to the bibliography
+
+%% === LIST OF OPEN SOURCE RESOURCES ====
+% to add 
+
+%% === APPENDICES ====
+\appendix
+
+\chapter{Appendix 1}
+
+\kant[1]
+
+\chapter{Appendix 2}
+
+%% === INDEX ====
+\printindex % Prints the index
+%\addcontentsline{toc}{chapter}{List of Abbreviations and Symbols}
+
+\end{document}
