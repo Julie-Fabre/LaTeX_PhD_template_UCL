@@ -57,7 +57,7 @@ LaTeX is absolutely amazing, and can help you create gorgeous, professional-look
 - **Compile often**: If you're starting out, you will make a few mistakes and typos. Compile often to spot them and fix them quickly.
 - **Get into good habits**: If you open a `{` or `\begin{command}` (for instance `\begin{center}`), immedately place the closing one after (the `}` or  `\end(center)`). This helps ensure you don't forget it. 
 - **Respect file naming conventions**: Don't give names to files that contain, for instance, spaces or accents. If your file name contains any underscores, you need to load/reference it with a backslash before this underscore (e.g. like this `your\_example.tex` and not like this `your_example.tex`).
-- **Use a spellchecker**: How you set this up will depend on what software you're using to do LaTeX. There should be on option for spell check, you and you should enable it. 
+- **Use a spellchecker**: How you set this up will depend on what software you're using to do LaTeX. There should be on option for spell check, and you should enable it. 
 
 ### LaTeX Tips for a Thesis
 
@@ -84,7 +84,7 @@ LaTeX can have some cryptic error messages when you're starting out. Hopefully t
     - you included "non-math mode" commands in math mode. For instance, you cannot do `$y=f(x) \vskip2pt$` (the command `\vspkip` can't be used in math mode). Similarly, you cannot have any blank lines or `\par` commands in math mode. 
 - **`Undefined control sequence`**: Usually a typo in a command name or a missing package that defines the command.
 - **`Float(s) lost`**: Ensure your floats are correctly placed within the document and not left hanging at the end.
-- **`File not fund`**: Verify file paths and names, especially for external files like images.
+- **`File not found`**: Verify file paths and names, especially for external files like images.
 - **`Extra alignment tab changed to \cr`**: This usually occurs in tables. Check for extra columns or misaligned text.
 - **`Misplaced alignment tab character &`**: The alignment character `&` is used incorrectly. The alignment character `&` is used to align elements in specific environments, such as matrix, align, table etc. If you use it outside of thos environments (say, just in the text), you need to precede it with a backslash `\&`.
 - **`Environment undefined`**: This is when you have a missing package. Ensure all required packages are installed and included in your preamble.
@@ -102,7 +102,7 @@ LaTeX can have some cryptic error messages when you're starting out. Hopefully t
   \end{itemize}
   ```
 - **Bibliography/Index not showing up**: Ensure you are compiling your document correctly (you need to first run LaTeX, LuaLaTeX or XeLaTeX, then generate the bibliography using bibtex, them make the index using makeindex and finally run LaTeX/LuaLaTeX/XeLaTeX again). Make sure there are no typos in your filenames and that you're using the appropriate commands for bibliography and index.
-- **Using LaTeX Instead of XeLaTeX or LuaLaTeX**: Certain features, especially for font handling and Unicode support, require XeLaTeX or LuaLaTeX instead of LaTeX. 
+- **Using LaTeX Instead of XeLaTeX or LuaLaTeX**: Certain features, especially font handling and Unicode support, require XeLaTeX or LuaLaTeX instead of LaTeX. 
   
 #### Debugging strategies 
 - **Check the prime suspects**: Start by looking at the line number indicated in the error message. However, the actual issue might have originated earlier in the document.
